@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feane Restaurant - Book Table</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">Feane</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="book.html" class="active">Book Table</a></li>
+      </ul>
+    </nav>
+    <a href="order.html" class="btn">Order Online</a>
+  </header>
+
+  <section class="book">
+    <h2>Book A Table</h2>
+    <div class="book-container">
+      <form class="book-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="tel" placeholder="Phone Number" required>
+        <input type="email" placeholder="Your Email" required>
+        <select required>
+          <option value="">How many persons?</option>
+          <option>1 Person</option>
+          <option>2 Persons</option>
+          <option>3 Persons</option>
+          <option>4+ Persons</option>
+        </select>
+        <input type="date" required>
+        <button type="submit" class="btn">Book Now</button>
+      </form>
+
+      <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.135!2d105.845!3d21.027!..." 
+                width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
